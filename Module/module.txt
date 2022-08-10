@@ -1,0 +1,21 @@
+Modules:
+Modules allow you to write code in more than one file. This way we dont have to write all the
+app in the file.
+In Node every file with code is module.
+We use the require() function to use the code in modules.
+let mysql = require('mysql');
+Now the require function looks for the mysql package in the node_modules folder.
+
+
+let myModule = require('./mymodule');
+"./" require function will know where to look like in the same folder. if not it will look into
+node_modules folder.
+
+Server Application:
+Server app in .Net
+we create a server app in VS. Technically it is a console app that runs on a web server.
+
+In Node we create a web server in code. We create a web server and your web app in one file.
+
+We are going to use a package called express to create a web app.
+dotnet webapp....
